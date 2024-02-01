@@ -104,7 +104,7 @@ class WebViewController: UIViewController, WKScriptMessageHandler {
     }
     
     func reloadPage(clearHistory : Bool){
-        let url = URL(string: "https://demo.avaturn.dev/")! // Replace with your own project URL
+        let url = URL(string: "https:// uworld.avaturn.dev)! // Replace with your own project URL
         if(clearHistory){
             WebCacheCleaner.clean()
         }
